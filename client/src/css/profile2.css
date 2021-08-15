@@ -1,0 +1,43 @@
+.probox{
+    width: 70vw;
+    min-height: 100px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 8px #a8a8a8,
+                 -5px -5px 8px #ffffff;
+}
+#prologo{
+    display: block;
+    margin: auto;
+    width: 150px;
+    border-radius:50px;
+}
+.probox2{
+    width: 80%;
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+}
+.prodis{
+    /* display:inline-block ; */
+    margin:12px;
+}
+.probox3{
+    width: 90vw;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    padding: 15px;
+
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 8px #a8a8a8,
+                 -5px -5px 8px #ffffff;
+}

@@ -1,0 +1,5 @@
+body{
+    background-color: rgb(255, 255, 255,.001);
+    border-radius: 12;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+doctype html
+html 
+    head    
+        title Dance Website 
+        style
+            include ../static/style.css
+    body
+        nav#navbar.top  
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/contact") Contact]
+        section#intro 
+            h2 Welc0me to Deep's dance classes!
+        section#mission 
+            h2 OUR MISSION
+            div.cardcon
+                div.card 
+                    p hi there 
+                div.card 
+                    p hi there 
+                div.card 
+                    p hi there 
+        div(style="position:relative" id="spbox")
+            section#sponsers 
+                h2 SPONSERS
+        script
+            include ../static/index.js

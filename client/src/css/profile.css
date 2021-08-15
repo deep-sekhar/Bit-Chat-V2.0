@@ -1,0 +1,63 @@
+#dp{
+    height: 320px;
+    margin: 50px;
+    position: relative;
+    top: -22px;
+
+}
+#dpback{
+    height: 100vh;
+    margin-top: 20px;
+}
+.dp-bgm{
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    position: relative;
+    background: rgba(18, 247, 67,0.1);
+    box-shadow:  5px 5px 8px #a8a8a8,
+                 -5px -5px 8px #ffffff;
+}
+.profile-text{
+    margin-top: 40px;
+}
+.footerlogo {
+    color: green;
+    /* width: 40px; */
+}
+/* ///////////////////////////////////// */
+/* Background Jhatak animations */
+.moving-glow:before, .moving-glow:after {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 22px;
+    background: linear-gradient(45deg, #089c08, #55ff7f, #4ab418,#50d83e, #40a519, #14a037, 
+          #16cc16, #1ecc98,#1faa32, #15b315);
+    /* background: linear-gradient(45deg, #7500fb, #0000ff, #4ac1e6,#6aa8e2, #5b73dd, #173eec, 
+          #c505ff, #bc3cf7,#7f48ff, #bf52f1); */
+    /* background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+          #0000ff, #00ff00,#ffff00, #ff0000); */
+    background-size: 400%;
+    width: 320px;
+    height: 320px;
+    z-index: -1;
+    animation: anim-moving-glow 20s linear infinite;
+    border-radius: 200px;
+    margin-bottom: 80px;
+}
+@keyframes anim-moving-glow {
+    0% {
+          background-position: 0 0;
+    }
+    50% {
+          background-position: 400% 0;
+    }
+    100% {
+          background-position: 0 0;
+    }
+}
+
+.moving-glow:after {
+    filter: blur(30px);
+}
